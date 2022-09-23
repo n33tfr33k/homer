@@ -12,8 +12,8 @@ RUN yarn build
 # production stage
 FROM alpine:3.16
 
-ENV GID 1000
-ENV UID 1000
+ENV GID 99
+ENV UID 100
 ENV PORT 80
 ENV SUBFOLDER "/_"
 ENV INIT_ASSETS 1
